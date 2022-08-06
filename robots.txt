@@ -1,0 +1,4 @@
+User-Agent: *
+Allow:
+
+Sitemap: https://digiswap-core.github.io/erc20-generator/sitemap.xml
