@@ -8,7 +8,7 @@
                         Create your own ERC20 Smart Contract without coding. ERC20 Generator is the easiest and fastest way to create your own ERC20 token on the Ethereum network. No coding skills are required.
                     </p>
                     <hr class="my-4">
-                    <h6 class="font-weight-light">The BEP20 Standard</h6>
+                    <h6 class="font-weight-light">The ERC20 Standard</h6>
                     <p class="font-weight-light">
                         ERC20 defines the implementation of APIs for token smart contracts. It is proposed by deriving
                         the ERC20 protocol of Ethereum and provides the basic functionality to transfer tokens,
@@ -260,7 +260,7 @@
                                     </span>
                                 </a>
                             </b-card-header>
-                            <b-collapse id="where-is-my-token-address" class="p-4" accordion="bep20-accordion">
+                            <b-collapse id="where-is-my-token-address" class="p-4" accordion="erc20-accordion">
                                 <b-card-text itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
                                     <span itemprop="text">
                                         Once you confirm your transaction you will receive transaction hash (first) and
@@ -285,7 +285,7 @@
                                     </span>
                                 </a>
                             </b-card-header>
-                            <b-collapse id="who-will-be-token-owner" class="p-4" accordion="bep20-accordion">
+                            <b-collapse id="who-will-be-token-owner" class="p-4" accordion="erc20-accordion">
                                 <b-card-text itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
                                     <span itemprop="text">
                                         Once your Token will be deployed you (your MetaMask address) will be the only
@@ -307,7 +307,7 @@
                                     </span>
                                 </a>
                             </b-card-header>
-                            <b-collapse id="where-token-supply-will-go" class="p-4" accordion="bep20-accordion">
+                            <b-collapse id="where-token-supply-will-go" class="p-4" accordion="erc20-accordion">
                                 <b-card-text itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
                                     <span itemprop="text">
                                         The initial token supply will be held by the address used to deploy the token
@@ -330,7 +330,7 @@
                                     </span>
                                 </a>
                             </b-card-header>
-                            <b-collapse id="which-wallet-support" class="p-4" accordion="bep20-accordion">
+                            <b-collapse id="which-wallet-support" class="p-4" accordion="erc20-accordion">
                                 <b-card-text itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
                                     <span itemprop="text">
                                         Your Token will be a fully ERC20 compatible token. Any ERC20 wallet will support
@@ -352,7 +352,7 @@
                                     </span>
                                 </a>
                             </b-card-header>
-                            <b-collapse id="how-to-mint-new-tokens" class="p-4" accordion="bep20-accordion">
+                            <b-collapse id="how-to-mint-new-tokens" class="p-4" accordion="erc20-accordion">
                                 <b-card-text itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
                                     <span itemprop="text">
                                         To generate new tokens you must use the "mint" function using token owner
@@ -381,7 +381,7 @@
                                     </span>
                                 </a>
                             </b-card-header>
-                            <b-collapse id="will-my-token-be-verified" class="p-4" accordion="bep20-accordion">
+                            <b-collapse id="will-my-token-be-verified" class="p-4" accordion="erc20-accordion">
                                 <b-card-text itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
                                     <span itemprop="text">
                                         Yes, your token source code will be already verified by "Similar Match".
@@ -404,7 +404,7 @@
                                     </span>
                                 </a>
                             </b-card-header>
-                            <b-collapse id="can-i-add-logo" class="p-4" accordion="bep20-accordion">
+                            <b-collapse id="can-i-add-logo" class="p-4" accordion="erc20-accordion">
                                 <b-card-text itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
                                     <span itemprop="text">
                                         Once your token will be deployed you will be able to add information on BscScan
@@ -543,7 +543,7 @@
                                 itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
                             <b-card-header role="tab">
                                 <a v-b-toggle
-                                   href="#what-is-a-bep20-token"
+                                   href="#what-is-a-erc20-token"
                                    @click.prevent
                                    class="btn-block text-reset text-decoration-none">
                                     <span itemprop="name">
@@ -551,7 +551,7 @@
                                     </span>
                                 </a>
                             </b-card-header>
-                            <b-collapse id="what-is-a-bep20-token" class="p-4" accordion="bsc-accordion">
+                            <b-collapse id="what-is-a-erc20-token" class="p-4" accordion="bsc-accordion">
                                 <b-card-text itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
                                     <span itemprop="text">
                                         ERC-20 is the technical standard for fungible tokens created using the Ethereum blockchain.

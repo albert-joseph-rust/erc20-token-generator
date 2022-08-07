@@ -31,7 +31,7 @@
             <b-embed
                     type="iframe"
                     aspect="4by3"
-                    src="https://digiswap-core.github.io/bep20-generator-terms/"
+                    src="https://digiswap-core.github.io/erc20-generator-terms/"
                     allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture"
                     allowfullscreen
             ></b-embed>

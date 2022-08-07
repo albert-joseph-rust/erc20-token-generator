@@ -462,7 +462,7 @@
       };
     },
     mounted () {
-      this.tokenType = this.getParam('tokenType') || 'SimpleBEP20';
+      this.tokenType = this.getParam('tokenType') || 'EasyERC20';
       this.currentNetwork = this.getParam('network') || this.network.default;
       this.initDapp();
     },
@@ -491,7 +491,7 @@
             'danger',
           );
 
-          this.tokenType = 'SimpleBEP20';
+          this.tokenType = 'EasyERC20';
         }
 
         this.initToken(this.tokenType);
